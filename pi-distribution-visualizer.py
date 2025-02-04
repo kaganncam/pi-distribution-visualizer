@@ -1,6 +1,6 @@
 import requests
 from  matplotlib import pyplot 
-
+#This code does not include every error handling."
 def get_pi(start = 0,number_of_digits = 100):
     # Fetches digits of Pi from an external API.
     # API supports maxium 100 digits
