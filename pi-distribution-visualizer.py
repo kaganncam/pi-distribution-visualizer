@@ -61,7 +61,7 @@ def bar_chart_show(digits,times_by_digits):
     pyplot.title("pi number")
     pyplot.show()
 
-#
+#run time
 content = get_pi_from(0,10000)
 times_by_digits,DIGITS= process_return_array(content=content)
 bar_chart_show(DIGITS,times_by_digits)
